@@ -1,0 +1,14 @@
+# CMake build directory
+build/
+
+# macOS specific files
+.DS_Store
+
+# Project specific test and quarantine zones
+MAC_QUARANTINE/
+TEST_ZONE/
+
+# Compiled executables (just in case they are generated outside the build folder)
+MacAV
+*.o
+*.out
